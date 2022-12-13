@@ -1,0 +1,15 @@
+.empty{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+  left: 0vh;
+  top: 50vh;
+  transform: translateY(-50%);
+}
+
+.empty h3, .empty p, .empty img{
+  margin-bottom: 12px;
+}

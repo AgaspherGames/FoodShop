@@ -1,0 +1,37 @@
+.button {
+  position: fixed;
+  bottom: 60px;
+  left: 50%;
+  width: 350px;
+  transform: translateX(-50%);
+
+  /* background: linear-gradient(37deg,#6cc51d 0%, #aedc81 50%, #6cc51d 100%); */
+  background: linear-gradient(
+    37deg,
+    #6cc51d 0%,
+    #6cc51d 35%,
+    #aedc81 50%,
+    #6cc51d 65%,
+    #6cc51d 100%
+  );
+
+  box-shadow: 0px 10px 9px rgba(108, 197, 29, 0.25);
+  border-radius: 5px;
+  border: 0;
+  padding: 18px;
+  color: white;
+  background-size: 400% 400%;
+  animation: Gradient 7s ease infinite;
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

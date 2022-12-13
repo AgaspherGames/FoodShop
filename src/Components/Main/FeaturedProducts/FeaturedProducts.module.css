@@ -1,0 +1,116 @@
+.featuredProducts{
+  margin-top: 15px;
+}
+
+.featuredProducts .container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.featuredProducts .item{
+  margin-top: 20px;
+  width: 170px;
+  height: 235px;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.featuredProducts .item>img{
+  height: 94px;
+  object-fit:scale-down;
+}
+
+.featuredProducts .item .gray{
+  font-size: 13px;
+}
+
+.featuredProducts .item .bottom{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.featuredProducts .item .bottom div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.featuredProducts .item .topright{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  
+
+  justify-content: flex-end;
+}
+.featuredProducts .item .topLeft{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #FDEFD5;
+  padding: 2px 5px;
+  color: #E8AD41;
+  font-size: 14px;
+  font-weight: 500;
+  
+
+  justify-content: flex-end;
+}
+.featuredProducts .item .topright button{
+  background-color: #fff;
+  border: 0;
+}
+
+.featuredProducts .item .topright svg{
+  scale: 1.8;
+  color: #868889 ;
+}
+
+.featuredProducts .item .topright .active svg{
+  scale: 1.8;
+  color: #FE585A ;
+}
+
+
+.featuredProducts .item .bottom button{
+  width: 100%;
+  background-color: #fff;
+  border: 0;
+  border-top: 1px solid #EBEBEB;
+  padding: 11px;
+}
+
+.featuredProducts .item .bottom svg{
+  margin-right: 10px;
+  scale: 1.3;
+  color: #6CC51D;
+}
+
+.price{
+  color: #6CC51D;
+}
+
+.gray{
+  color: #868889;
+}
+
+.discount{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #FEE4E4;
+  padding: 4px 8px;
+  color: #F56262;
+  font-size: 13px;
+  font-weight: 500;
+  
+
+  justify-content: flex-end;
+}

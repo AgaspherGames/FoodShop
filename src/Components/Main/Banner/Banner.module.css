@@ -1,0 +1,41 @@
+.banner{
+  position: relative;
+}
+
+.banner img{
+  width: 100%;
+}
+
+.bannerDots{
+  position: absolute;
+  color: #fff;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 25%;
+}
+
+.bannerDots svg{
+  height: 10px;
+}
+
+.bannerDots .active circle{
+  height: 10px;
+  width: 20px;
+  color: #6CC51D;
+  transition: all .3s ease;
+}
+
+.imgHolder{
+  overflow: hidden;
+}
+
+.imgHolder div{
+  display: flex;
+  width: 356px;
+  height: 265px;
+  transition: all .8s ease;
+}
+

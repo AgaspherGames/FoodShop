@@ -1,0 +1,11 @@
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.top svg{
+  color: #868889;
+  scale: 2.5;
+}

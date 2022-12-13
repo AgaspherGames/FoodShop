@@ -1,0 +1,42 @@
+.div svg {
+  scale: 1.8;
+  color: #868889;
+  transition: all 0.3s ease;
+}
+
+.div .active{
+  color: #fe585a;
+  animation: like 0.4s ease;
+}
+
+@keyframes like {
+  0% {
+    transform: scale(0);
+  }
+  70% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes unlike{
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+.div .unlike{
+  color: #fe585a;
+  animation: unlike .3s ease;
+}
+
+
+.div button {
+  background-color: #fff;
+  border: 0;
+}
